@@ -1,0 +1,599 @@
+/*--
+	Author: W3layouts
+	Author URL: http://w3layouts.com
+	License: Creative Commons Attribution 3.0 Unported
+	License URL: http://creativecommons.org/licenses/by/3.0/
+--*/
+
+
+
+/*-- Reset Code --*/
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
+ol,ul{list-style:none;padding:0;margin:0;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+table{border-collapse:collapse;border-spacing:0;}
+a{text-decoration:none;}
+.txt-rt{text-align:right;}
+.txt-lt{text-align:left;}
+.txt-center{text-align:center;}
+.float-rt{float:right;}
+.float-lt{float:left;}
+.clear{clear:both;}
+.pos-relative{position:relative;}
+.pos-absolute{position:absolute;}
+.vertical-base{vertical-align:baseline;}
+.vertical-top{vertical-align:top;}
+.underline{	padding-bottom:5px;	border-bottom:1px solid #eee;margin:0 0 20px 0;}
+nav.vertical ul li{display:block;}
+nav.horizontal ul li{display: inline-block;}
+img{max-width:100%;}
+
+/*-- Reset Code --*/
+
+
+
+/*-- Index-Page-Styling --*/
+
+body {
+    background: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    /*--agileits--*/
+    /*--w3layouts--*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+body a {
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    text-decoration: none;
+}
+
+input[type="button"], input[type="submit"] {
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    color: #FFF;
+    letter-spacing: 2px;
+    margin: 30px auto;
+}
+
+.containerw3layouts-agileits {
+    width: 40%;
+    margin: 0 auto;
+    text-align: left;
+    /*--agileinfo--*/
+    /*--wthree--*/
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    border-bottom: 1px solid #EEE;
+    margin-bottom: 20px;
+}
+
+.agileinfow3ls {
+    padding: 15px 0;
+}
+
+.wthreelable {
+    width: 30%;
+    float: left;
+}
+
+.wthreeinput {
+    width: 70%;
+    float: left;
+}
+
+.wthreelable label {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+span.aitsreturn-lable, span.agilepickup-lable, span.agiledest-lable, span.aitsjourney-lable {
+    float: left;
+}
+
+span.colon {
+    float: right;
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px 0;
+    /*--aitsw3ls--*/
+    /*--w3lsagile--*/
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #FFF;
+    border-bottom: 1px solid #FFF;
+    letter-spacing: 0.5px;
+}
+
+input.top, textarea {
+    padding-top: 0;
+    margin-top: 0;
+}
+
+input.top {
+    margin-bottom: 15px;
+}
+
+.wthreeinput label {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+label.aitsnumber {
+    margin: 0 5px 0 10px;
+}
+
+span.lable {
+    margin: 0;
+    float: left;
+}
+
+input.agilecode, input.wthreeland, input.agileinfomobile, input.date, .w3lsjourneyaits-input select {
+    width: 15%;
+    padding: 10px;
+    margin: 5px 0;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid #EEE;
+    outline: none;
+    /*--agileits--*/
+    /*--w3layouts--*/
+    background: transparent;
+    color: #FFF;
+    text-align: center;
+}
+
+input.wthreeland, input.agileinfomobile, .w3lsjourneyaits-input select {
+    width: 42%;
+}
+
+.aitsphonew3ls-input h3 {
+    text-align: center;
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+input.date {
+    width: 62%;
+}
+
+.date {
+    background: url(../images/date-icon.png) no-repeat 95.5% 45% #fff;
+    cursor: pointer;
+    padding: 8px 0;
+}
+
+textarea {
+    height: 100px;
+    padding: 5px 0 10px;
+}
+
+.w3lsjourneyaits-input option {
+    background-color: #333;
+}
+
+.aitsphonew3ls, .agileinfodeparture, .agileinforeturn, .w3lsjourneyaits {
+    padding: 25px 0;
+}
+
+.w3lsjourneyaits {
+    padding-bottom: 0;
+}
+
+.aitsphonew3ls .wthreeinput, .agileinfodeparture .wthreeinput, .agileinforeturn .wthreeinput, .w3lsjourneyaits .wthreeinput {
+    margin-top: -15px;
+}
+
+.aitspickupaddress, .aitsdestinationaddress {
+    padding: 20px 0;
+}
+
+.aitspickupaddress .wthreeinput, .aitsdestinationaddress .wthreeinput {
+    margin-top: -3px;
+}
+
+.aitssubmitw3ls {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.aitssubmitw3ls input[type="submit"] {
+    padding: 15px 50px;
+    border: 2px solid #EEE;
+    outline: none;
+    /*--agileits--*/
+    /*--w3layouts--*/
+    background: transparent;
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.aitssubmitw3ls input[type="submit"]:hover {
+    background-color: #FFF;
+    color: #000;
+    border-color: #FFF;
+}
+
+::-webkit-input-placeholder {
+    color: #FFF;
+}
+
+::-moz-placeholder {
+    color: #FFF;
+}
+
+::-moz-placeholder {
+    color: #FFF;
+}
+
+::-ms-input-placeholder {
+    color: #FFF;
+}
+
+.w3lsfooteragileits {
+    margin: 50px 20px 20px;
+}
+
+.w3lsfooteragileits p a {
+    color: #FFF;
+}
+
+.w3lsfooteragileits p {
+    line-height: 25px;
+}
+
+.w3lsfooteragileits p a:hover {
+    color: #FFEB3B;
+}
+
+/*-- Index-Page-Styling --*/
+
+
+
+
+
+/*--- Responsive Code ---*/
+
+
+
+
+
+@media screen and (max-width: 1920px) {
+    .containerw3layouts-agileits {
+        width: 34%;
+    }
+}
+
+@media screen and (max-width: 1680px) {
+    .containerw3layouts-agileits {
+        width: 38%;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .containerw3layouts-agileits {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .containerw3layouts-agileits {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    .containerw3layouts-agileits {
+        width: 47%;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .containerw3layouts-agileits {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .containerw3layouts-agileits {
+        width: 63%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    input.wthreeland {
+        width: 40.8%;
+    }
+}
+
+@media screen and (max-width: 966px) {
+    .containerw3layouts-agileits {
+        width: 65%;
+    }
+    .wthreelable label {
+        font-size: 14px;
+    }
+    input.wthreeland {
+        width: 41%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    input.wthreeland {
+        width: 37.8%;
+    }
+    span.lable {
+        margin-top: -14px;
+    }
+    .agileinfodeparture-lable span.lable {
+        margin-top: -14px;
+        margin-right: 20px;
+        line-height: 25px;
+    }
+    .agileinfodeparture-lable span.colon {
+        margin-top: -35px;
+    }
+}
+
+@media screen and (max-width: 853px) {
+    input.wthreeland {
+        width: 35.2%;
+    }
+    .aitsdestinationaddress-lable span.agiledest-lable {
+        margin-top: 0;
+    }
+    span.agiledest-lable label {
+        margin-right: 15px;
+        line-height: 25px;
+    }
+    .aitsdestinationaddress-lable span.colon {
+        margin-top: -50px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    input.wthreeland {
+        width: 31.8%;
+    }
+    .agileinforeturn-lable span.aitsreturn-lable {
+        margin-top: -13px;
+    }
+    .agileinforeturn-lable span.aitsreturn-lable label {
+        margin-right: 12px;
+        line-height: 25px;
+    }
+    .agileinforeturn-lable span.colon {
+        margin-top: -35px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .containerw3layouts-agileits {
+        width: 75%;
+    }
+    .agileinforeturn-lable span.aitsreturn-lable label {
+        margin-right: 22px;
+    }
+    input.wthreeland {
+        width: 36.9%;
+    }
+    .aitssubmitw3ls input[type="submit"] {
+        padding: 10px 40px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 736px) {
+    input.wthreeland {
+        width: 34.8%;
+    }
+}
+
+@media screen and (max-width: 667px) {
+    h2 {
+        font-size: 14px;
+    }
+    label.aitsnumber {
+        margin: 0 5px 0 8px;
+    }
+    input.wthreeland {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .containerw3layouts-agileits {
+        width: 76%;
+        padding: 40px;
+    }
+    input.agilecode, input.wthreeland, input.agileinfomobile {
+        padding: 10px 8px;
+    }
+}
+
+@media screen and (max-width: 603px) {
+    h2 {
+        font-size: 13px;
+    }
+    label.aitsnumber {
+        margin: 0 0 0 5px;
+    }
+    .aitspickupaddress-lable span.agilepickup-lable {
+        margin-top: 0;
+    }
+    span.agilepickup-lable label {
+        margin-right: 5px;
+        margin-top: 0;
+        line-height: 25px;
+    }
+    .aitspickupaddress-lable span.colon {
+        margin-top: -50px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .wthreeinput label {
+        margin-right: 4px;
+    }
+    input.wthreeland {
+        width: 28.7%;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    h1 {
+        font-size: 30px;
+        letter-spacing: 1px;
+        margin: 25px auto;
+    }
+    .containerw3layouts-agileits {
+        width: 80%;
+        padding: 30px;
+    }
+    .wthreeinput label {
+        margin-right: 0;
+    }
+    input.date {
+        width: 70%;
+    }
+    .w3lsjourneyaits-input select {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 533px) {
+    h2 {
+        font-size: 14px;
+        line-height: 23px;
+    }
+    .wthreeinput label {
+        margin-right: 10px;
+    }
+    input.agilecode, input.wthreeland {
+        width: 67%;
+    }
+    input.agileinfomobile {
+        width: 56%;
+    }
+    label.aitsnumber {
+        margin: 0 23px 0 0;
+    }
+    .w3lsfooteragileits p {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    input.agilecode, input.wthreeland {
+        width: 63.2%;
+    }
+    input.agileinfomobile {
+        width: 50.9%;
+    }
+    input.date {
+        width: 91.5%;
+    }
+    .w3lsjourneyaits-lable span.aitsjourney-lable {
+        margin-top: -14px;
+    }
+    .w3lsjourneyaits-lable span.colon {
+        margin-top: -37px;
+    }
+    span.aitsjourney-lable label {
+        line-height: 25px;
+        margin-right: 15px;
+    }
+    .aitssubmitw3ls input[type="submit"] {
+        padding: 7px 30px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .containerw3layouts-agileits {
+        width: 90%;
+        padding: 30px 10px;
+    }
+    .wthreelable label {
+        font-size: 13px;
+    }
+    input.agilecode, input.wthreeland {
+        width: 92%;
+        margin: 10px 0 15px;
+    }
+    input.agileinfomobile {
+        width: 92%;
+    }
+    .w3lsjourneyaits-input select {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .wthreelable {
+        width: 35%;
+    }
+    .wthreeinput {
+        width: 65%;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    h1 {
+        font-size: 25px;
+    }
+    h2 {
+        font-size: 13px;
+    }
+    .aitsphonew3ls .wthreeinput {
+        margin-top: 0;
+    }
+    .agileinfodeparture-lable span.colon, .agileinforeturn-lable span.colon, .aitspickupaddress-lable span.colon, .aitsdestinationaddress-lable span.colon {
+        margin-right: 10px;
+    }
+}
+
+
+
+
+
+/*--- Responsive Code ---*/
